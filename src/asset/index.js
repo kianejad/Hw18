@@ -1,0 +1,16 @@
+import Uber  from 'asset/img/branding/Uber-02.svg';
+import  Mailchimp from 'asset/img/branding/Mailchimp-02.svg';
+import  breitling  from 'asset/img/branding/breitling-watches.svg';
+import  Reveal  from 'asset/img/branding/Reveal-01.svg';
+import  hamilton  from 'asset/img/branding/hamilton-watches.svg';
+import  movado  from 'asset/img/branding/movado-watches.svg';
+import logo from 'asset/img/logo-main.png';
+import ImageMacBook from 'asset/img/Daco_4719738.png';
+export  {Uber}  ;
+export  {Mailchimp}  ;
+export  {breitling}  ;
+export  {Reveal}  ;
+export { hamilton } ;
+export { movado } ;
+export {logo} ;
+export {ImageMacBook} ;
