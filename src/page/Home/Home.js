@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Home.module.css';
-import { AnimatedBackground } from 'components';
+import { AnimatedBackground } from 'components/animated/animatedBackgroundMain/AnimatedBackground';
+
 import {
 	Uber,
 	Mailchimp,
@@ -96,7 +97,7 @@ function Home() {
 							elit. Ratione et distinctio nulla ut repellendus?
 							Laborum unde fuga sapiente dolores!
 						</p>
-						<span>
+						<span className={styles.linkTextMain}>
 							<Link to="/login" className={styles.linkMain}>
 								Start Learning
 							</Link>

@@ -1,0 +1,123 @@
+.box {
+	width: 100%;
+	margin: 1rem 0;
+	display: grid;
+	grid-template-columns: 50% 30% 20%;
+	background-color: white;
+	box-shadow: 1px 1px 3px #dededeb9, -1px -1px 3px #e2e2e2de;
+}
+.box:hover {
+	box-shadow: 5px 5px 6px #dededeb9, -5px -5px 6px #e2e2e2de;
+}
+.sectionOne {
+	display: grid;
+	grid-template-columns: 25% 75%;
+	width: 100%;
+	height: 100%;
+}
+.sectionOne > figure {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.sectionOne > figure > img {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+.sectionOne > span {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	font-family: var(--bs-font-Roboto);
+	text-align: left;
+	margin-left: 1.4rem;
+}
+.sectionOne > span > h4 {
+	color: var(--bs-Hunter-green);
+	font-weight: 400;
+}
+.sectionTwo {
+	display: grid;
+	grid-template-columns: 40% 60%;
+	align-items: center;
+	justify-items: flex-start;
+	border-right: 1px solid var(--bs-test-secondary-color);
+}
+.sectionTwo > span {
+	display: flex;
+	flex-direction: column;
+}
+.sectionTwo > span > h6 {
+	font-size: 16px;
+	font-weight: 600;
+}
+.sectionTwo > span > p {
+	font-size: 14px;
+	font-weight: 400;
+}
+.sectionTwo > figure {
+	width: 6rem;
+	height: 6rem;
+}
+.sectionTwo > figure > img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50px;
+	border: 2px var(--bs-Hunter-green);
+}
+.sectionThree {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@media only screen and (max-width: 1300px) {
+	.box {
+		width: 100%;
+		margin: 1rem 0;
+		display: grid;
+		grid-template-columns: 70% 30%;
+		background-color: white;
+		box-shadow: 1px 1px 3px #dededeb9, -1px -1px 3px #e2e2e2de;
+	}
+	.sectionOne {
+		display: grid;
+		grid-template-columns: 30% 75%;
+		width: 100%;
+		height: 100%;
+	}
+	.sectionTwo {
+		display: none;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.box {
+		width: 100%;
+		margin: 1rem 0;
+		display: grid;
+		grid-template-columns: 100%;
+		background-color: white;
+		box-shadow: 1px 1px 3px #dededeb9, -1px -1px 3px #e2e2e2de;
+	}
+	.sectionOne {
+		display: grid;
+		grid-template-columns: 100%;
+		width: 100%;
+		height: 100%;
+	}
+	.sectionTwo {
+		display: none;
+	}
+	.sectionTwo > span > h6 {
+		font-size: 20px;
+		font-weight: 600;
+	}
+	.sectionTwo > span > p {
+		font-size: 18px;
+		font-weight: 400;
+	}
+}
+@media only screen and (max-width: 576px) {
+}
